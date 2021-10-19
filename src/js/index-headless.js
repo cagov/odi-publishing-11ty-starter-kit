@@ -25,7 +25,6 @@ import '@cagov/ds-statewide-header/src/index.js';
 // Local components
 import '../components/post-list/index.js';
 import '../components/page-alert/index.js';
-import '../components/drought-map/index.js';
 
 // Analytics
 import setupAnalytics from './gatracker/index.js';

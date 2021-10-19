@@ -29,5 +29,3 @@
 /* This style should be published and installed so they aren't duplicated here and in design-system */
 @import "./ds-dropdown-menu-overrides.scss"; // This is a hack. Fix within design system. @ISSUE
 
-/* Site specific components */
-@import "../../components/drought-map/index"; /* copied from gutenberg custom block */
