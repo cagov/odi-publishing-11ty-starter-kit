@@ -20,3 +20,4 @@
 * Decide on bucket, pantheon, wordpress to github names
 * Update pipeline set up wiki
 * Track issues in `@cagov/odi-publishing` & `odi-publishing` board.
+* Connect repos to relevant boards & notifications.
