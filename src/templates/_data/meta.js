@@ -182,14 +182,14 @@ const getMetaTagValue = function (data, field) {
         return data.site_settings.site_description;
       }
     } catch (error) {
-      console.error("No site, page or post description found.");
+      //console.error("No site, page or post description found.");
     }
   }
   if (field === "site_description") {
     try {
       return data.site_settings.site_description;
     } catch (error) {
-      console.error("No site, page or post description found.");
+      //console.error("No site, page or post description found.");
     }
     return "";
   }
