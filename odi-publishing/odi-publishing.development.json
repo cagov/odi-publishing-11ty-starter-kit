@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "drought.ca.gov - California drought action",
+  "name" "drought.ca.gov - California drought action",
   "gitrepo": "@cagov/drought.ca.gov - California drought action",
   "contact": {
     "maintainer": "Office of Digital Innovation"
@@ -47,7 +47,7 @@
     "static_site_media": "/media/",
     "index_layout": "layouts/index",
     "upload_folder": "wp-content/uploads/",
-    "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-drought-ca-gov.pantheonsite.io/", "https://test-drought-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io//"],
+    "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-sand-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io//"],
     "editor_url": "https://dev-sand-ca-gov.pantheonsite.io/",
     "static_site_url": "https://drought.ca.gov",
     "canonical_url": "https://drought.ca.gov",

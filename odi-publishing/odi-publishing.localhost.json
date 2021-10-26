@@ -1,16 +1,16 @@
 {
   "version": "1.0.0", 
   "name": "drought.ca.gov - California drought action",
-  "gitrepo": "@cagov/drought.ca.gov - California drought action",
+  "gitrepo" "@cagov/drought.ca.gov - California drought action",
   "contact": {
     "maintainer": "Office of Digital Innovation"
   },
   "meta": {
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-sand-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "source_data": "https://dev-sand-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "As needed"
@@ -18,8 +18,8 @@
   "data": {
     "name": "California drought action",
     "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-    "url": "https://test-drought-ca-gov.pantheonsite.io",
-    "home": "https://test-drought-ca-gov.pantheonsite.io",
+    "url": "https://dev-sand-ca-gov.pantheonsite.io",
+    "home": "https://dev-sand-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
@@ -47,8 +47,8 @@
     "static_site_media": "/media/",
     "index_layout": "layouts/index",
     "upload_folder": "wp-content/uploads/",
-    "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-drought-ca-gov.pantheonsite.io/", "https://test-drought-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io//"],
-    "editor_url": "https://test-drought-ca-gov.pantheonsite.io",
+    "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-sand-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io/", "https://dev-sand-ca-gov.pantheonsite.io//"],
+    "editor_url": "https://dev-sand-ca-gov.pantheonsite.io",
     "static_site_url": "http://localhost:8080",
     "canonical_url": "http://localhost:8080",
     "s3_bucket_url": "http://localhost:8080",
