@@ -19,7 +19,7 @@
     "name": "California Sandbox",
     "site_description": "For testing and development.",
     "url": "https://dev-sand-ca-gov.pantheonsite.io/",
-    "url_short": "drought.ca.gov",
+    "url_short": "dev-sand-ca-gov.pantheonsite.io",
     "home": "https://dev-sand-ca-gov.pantheonsite.io/",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
