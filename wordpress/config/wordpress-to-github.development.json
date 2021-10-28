@@ -5,20 +5,14 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress_source_url": "https://dev-sand-ca-gov.pantheonsite.io/",
-    "github_targets": [
-      {
-        "outputBranch": "development",
-        "disabled": false,
-        "PostPath": "wordpress/posts",
-        "PagePath": "wordpress/pages",
-        "MediaPath": "wordpress/media",
-        "GeneralFilePath": "wordpress/general/general.json",
-        "ExcludeProperties": [
-          "content",
-          "_links"
-        ]
-      }
+    "disabled": false,
+    "PostPath": "wordpress/posts",
+    "PagePath": "wordpress/pages",
+    "MediaPath": "wordpress/media",
+    "GeneralFilePath": "wordpress/general/general.json",
+    "ExcludeProperties": [
+      "content",
+      "_links"
     ]
   }
 }
