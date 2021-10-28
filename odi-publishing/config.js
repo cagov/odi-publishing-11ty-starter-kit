@@ -1,5 +1,5 @@
 const main = require('./odi-publishing.json'); // Default settings.
-const staging = require('./odi-publishing.json'); // Default settings.
+const development = require('./odi-publishing.json'); // Default settings.
 
 // Temporarily disabled.
 // const main_test_pantheon = require('./odi-publishing.main-test-pantheon.json'); // Default settings.
