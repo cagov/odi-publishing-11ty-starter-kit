@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name" "drought.ca.gov - California drought action",
+  "name": "drought.ca.gov - California drought action",
   "gitrepo": "@cagov/drought.ca.gov - California drought action",
   "contact": {
     "maintainer": "Office of Digital Innovation"
