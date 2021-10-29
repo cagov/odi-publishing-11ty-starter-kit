@@ -22,4 +22,4 @@ This is a working copy of odi-publishing-11ty-starter-kit.
 - [ ] Replace agency footer with ds version.
 - [ ] Move index.njk meta keywords to config
 - [ ] Use config for src/templates/_data/wordpress.js
-- [ ] Is wordpress/general.json a relavant file?
+- [ ] Only use prod dependencies for github build. 

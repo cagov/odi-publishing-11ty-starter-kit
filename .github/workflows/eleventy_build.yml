@@ -49,7 +49,7 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: 'us-west-1'   # optional: defaults to us-east-1
           source: './docs/fonts'
-          dest: 's3://headless.cannabis.ca.gov/fonts'
+          #dest: 's3://headless.cannabis.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
 
       # Invalidate Cloudfront production distribution
