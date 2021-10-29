@@ -8,7 +8,7 @@ const staging = require('./odi-publishing.json'); // Default settings.
 // const localhost = require('./odi-publishing.localhost.json'); // Default settings.
 
 const getConfig = () => {
-    var branch = "development"; // @TEMP connect to env varible or github action.
+    var branch = "main"; // @TEMP connect to env varible or github action.
     // @TODO connect .yml or local env variable branch name & return if branch exists.
     
     switch (branch) {
