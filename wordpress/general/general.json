@@ -5,7 +5,7 @@
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://dev-sand-ca-gov.pantheonsite.io/",
-      "deployment_target": "https://github.com/cagov/odi-publishing-11ty-sandbox/tree/development"
+      "deployment_target": "https://github.com/cagov/odi-publishing-11ty-sandbox/tree/main"
     },
     "refresh_frequency": "as needed"
   },
