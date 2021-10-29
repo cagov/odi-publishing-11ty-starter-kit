@@ -23,3 +23,4 @@ This is a working copy of odi-publishing-11ty-starter-kit.
 - [ ] Move index.njk meta keywords to config
 - [ ] Use config for src/templates/_data/wordpress.js
 - [ ] Only use prod dependencies for github build. 
+- [ ] Removed  `Reset cache-control on static files`  from github actions - is that okay?
