@@ -31,8 +31,8 @@
   "author": "Office of Digital Innovation",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@cagov/11ty-build-system": "^0.1.2",
+    "@11ty/eleventy": "^1.0.0-beta.3",
+    "@cagov/11ty-build-system": "^0.1.3",
     "@csstools/postcss-sass": "^4.0.0",
     "@playwright/test": "^1.14.1",
     "@rollup/plugin-json": "^4.1.0",
