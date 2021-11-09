@@ -22,7 +22,7 @@
     "slug": "new-page",
     "status": "publish",
     "type": "page",
-    "link": "https://dev-sand-ca-gov.pantheonsite.io/new-page/",
+    "link": "https://dev-sand-ca-gov.pantheonsite.io/",
     "title": "new page",
     "excerpt": "<p>new page</p>\n",
     "author": "Zakiya",
@@ -49,7 +49,7 @@
       "site_name": "Publishing Sandbox",
       "site_description": "A sandbox for publishing",
       "site_url": "https://dev-sand-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-sand-ca-gov.pantheonsite.io/new-page/",
+      "canonical_url": "https://dev-sand-ca-gov.pantheonsite.io/",
       "page_title": "new page",
       "page_description": "A sandbox for publishing",
       "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
@@ -58,7 +58,7 @@
       "page_social_image_alt": "",
       "meta_title": "new page",
       "meta_description": "A sandbox for publishing",
-      "meta_canonical_url": "https://dev-sand-ca-gov.pantheonsite.io/new-page/",
+      "meta_canonical_url": "https://dev-sand-ca-gov.pantheonsite.io/",
       "open_graph_title": "new page",
       "open_graph_description": "A sandbox for publishing",
       "twitter_title": "new page",
@@ -68,6 +68,6 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://dev-sand-ca-gov.pantheonsite.io/new-page/"
+    "wordpress_url": "https://dev-sand-ca-gov.pantheonsite.io/"
   }
 }
