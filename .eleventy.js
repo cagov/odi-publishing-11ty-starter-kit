@@ -1,6 +1,7 @@
 const fs = require("fs");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const cagovBuildSystem = require('@cagov/11ty-build-system');
 
 const { renderPostLists } = require("./src/components/post-list/render");
 
@@ -17,6 +18,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
+  });
+
+  eleventyConfig.addPlugin(cagovBuildSystem, {
+    sass: {
+      watch: ['src/css/**/*'],
+      output: 'dist/index.css',
+      options: {
+        file: 'src/css/sass/index.scss',
+        includePaths: ['./src/css/sass']
+      }
+    },
+    rollup: {
+      file: 'src/js/rollup.config.js',
+      watch: ['src/js/**/*']
+    }
   });
 
   eleventyConfig.addFilter("cssmin", function (code) {

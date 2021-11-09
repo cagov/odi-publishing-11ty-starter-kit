@@ -182,14 +182,14 @@ const getMetaTagValue = function (data, field) {
         return data.site_settings.site_description;
       }
     } catch (error) {
-      console.error("No site, page or post description found.");
+      //console.error("No site, page or post description found.");
     }
   }
   if (field === "site_description") {
     try {
       return data.site_settings.site_description;
     } catch (error) {
-      console.error("No site, page or post description found.");
+      //console.error("No site, page or post description found.");
     }
     return "";
   }
@@ -243,8 +243,8 @@ const cleanUrl = function (url) {
       if (url.indexOf(".pantheonsite.io/") > -1) {
         return url.split(".pantheonsite.io/")[1];
       }
-      if (url.indexOf("drought.ca.gov") > -1) {
-        return url.split("drought.ca.gov")[1];
+      if (url.indexOf(config.data.url_short) > -1) {
+        return url.split(config.data.url_short)[1];
       }
     }
   } catch (error) {
