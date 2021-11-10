@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "created_date": "2021-11-10T01:45:49",
+    "updated_date": "2021-11-10T01:45:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://dev-odi-publishing-sandbox.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-odi-publishing-sandbox.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/odi-publishing-11ty-starter-kit/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 9,
+    "date": "2021-11-10T01:45:49",
+    "date_gmt": "2021-11-10T01:45:49",
+    "guid": "https://dev-odi-publishing-sandbox.pantheonsite.io/?p=9",
+    "modified": "2021-11-10T01:45:50",
+    "modified_gmt": "2021-11-10T01:45:50",
+    "slug": "new-test-post",
+    "status": "publish",
+    "type": "post",
+    "link": "https://dev-odi-publishing-sandbox.pantheonsite.io/2021/11/10/new-test-post/",
+    "title": "New test post",
+    "excerpt": "<p>Sample content 11-9-2021 5:45pm</p>\n",
+    "author": "chach.sikes",
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "Uncategorized"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-odi-publishing-sandbox.pantheonsite.io"
+      },
+      "site_name": "ODI Publishing Sandbox",
+      "site_description": "Just another WordPress site",
+      "site_url": "https://dev-odi-publishing-sandbox.pantheonsite.io",
+      "canonical_url": "https://dev-odi-publishing-sandbox.pantheonsite.io/2021/11/10/new-test-post/",
+      "page_title": "New test post",
+      "page_description": "Just another WordPress site",
+      "page_social_image_url": "",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "New test post",
+      "meta_description": "Just another WordPress site",
+      "meta_canonical_url": "https://dev-odi-publishing-sandbox.pantheonsite.io/2021/11/10/new-test-post/",
+      "open_graph_title": "New test post",
+      "open_graph_description": "Just another WordPress site",
+      "twitter_title": "New test post",
+      "twitter_description": "Just another WordPress site"
+    },
+    "headless_categories": [
+      {
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 1,
+        "category_description": "",
+        "cat_name": "Uncategorized",
+        "category_nicename": "uncategorized",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "",
+    "wordpress_url": "https://dev-odi-publishing-sandbox.pantheonsite.io/2021/11/10/new-test-post/"
+  }
+}
