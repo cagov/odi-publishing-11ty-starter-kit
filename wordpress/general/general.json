@@ -1,25 +1,26 @@
 {
   "meta": {
     "api_version": "v2",
-    "api_url": "https://dev-sand-ca-gov.pantheonsite.io//wp-json/wp/v2/",
+    "api_url": "https://dev-odi-publishing-sandbox.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-sand-ca-gov.pantheonsite.io/",
-      "deployment_target": "https://github.com/cagov/odi-publishing-11ty-sandbox/tree/main"
+      "source_data": "https://dev-odi-publishing-sandbox.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/odi-publishing-11ty-starter-kit/tree/main"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
-    "name": "Publishing Sandbox",
-    "description": "A sandbox for publishing",
-    "url": "https://dev-sand-ca-gov.pantheonsite.io",
-    "home": "https://dev-sand-ca-gov.pantheonsite.io",
-    "gmt_offset": -8,
-    "timezone_string": "America/Los_Angeles",
+    "name": "ODI Publishing Sandbox",
+    "description": "Just another WordPress site",
+    "url": "https://dev-odi-publishing-sandbox.pantheonsite.io",
+    "home": "https://dev-odi-publishing-sandbox.pantheonsite.io",
+    "gmt_offset": "0",
+    "timezone_string": "",
     "namespaces": [
       "oembed/1.0",
       "redirection/v1",
       "menus/v1",
+      "generatepress/v1",
       "notification/v1",
       "wp/v2",
       "wp-site-health/v1"
